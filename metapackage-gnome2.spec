@@ -1,8 +1,8 @@
 Summary:	GNOME Desktop Environment with additional packages
 Summary(pl.UTF-8):	Środowisko graficzne GNOME z dodatkowymi pakietami
-Name:		metapackage-gnome
+Name:		metapackage-gnome2
 Version:	2.32.0
-Release:	2
+Release:	0.1
 License:	GPL/LGPL
 Group:		X11/Applications
 Requires:	%{name}-accessibility = %{version}-%{release}
@@ -58,7 +58,6 @@ Requires:	gstreamer-xvid
 Requires:	gwget >= 1.0.1
 Requires:	liferea >= 1.6.3
 Requires:	rhythmbox >= 0.12.8
-Obsoletes:	metapackage-gnome-extras
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -88,8 +87,6 @@ Suggests:	gnome-themes-HighContrastLargePrintInverse >= 2.30.1
 Suggests:	gnome-themes-LargePrint >= 2.30.1
 Suggests:	gnome-themes-LowContrast >= 2.30.1
 Suggests:	gnome-themes-LowContrastLargePrint >= 2.30.1
-Provides:	metapackage-gnome-extras-accessibility
-Obsoletes:	metapackage-gnome-extras-accessibility
 
 %description accessibility
 Accessibility packages for GNOME Desktop Environment.
