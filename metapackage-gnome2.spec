@@ -2,7 +2,7 @@ Summary:	GNOME Desktop Environment with additional packages
 Summary(pl.UTF-8):	Środowisko graficzne GNOME z dodatkowymi pakietami
 Name:		metapackage-gnome2
 Version:	2.32.0
-Release:	0.1
+Release:	0.2
 License:	GPL/LGPL
 Group:		X11/Applications
 Requires:	%{name}-accessibility = %{version}-%{release}
@@ -114,7 +114,7 @@ Summary(pl.UTF-8):	Podstawowe składniki środowiska graficznego GNOME
 Group:		X11/Applications
 Requires:	eog >= 2.32.0
 Requires:	fam
-Requires:	gedit2 >= 2.30.4
+Requires:	gedit >= 2.30.4
 Requires:	gnome-control-center >= 1:2.32.0
 Requires:	gnome-desktop >= 2.32.0
 Requires:	gnome-icon-theme >= 2.30.2
